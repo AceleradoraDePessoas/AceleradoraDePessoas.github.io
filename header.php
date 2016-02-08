@@ -282,7 +282,8 @@
                                 <li><a href="http://www.aceleradoradepessoas.com.br/#valores">Nossos Valores</a></li> 
                                 <li><a href="http://www.aceleradoradepessoas.com.br/grupo.php">Grupo de Email</a></li> 
                                 <li><a href="http://www.aceleradoradepessoas.com.br/transparencia.php">Transpar&ecirc;ncia</a></li>
-
+                                <li><a href="http://www.aceleradoradepessoas.com.br/parceiros.php">Parceiros</a></li>
+                                
                                 <?php
                                 /*
                                   Menu Dropdown ainda não implementado
