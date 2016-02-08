@@ -6,10 +6,10 @@ require('header.php');
 
 <div class="container marketing" style="padding-top: 70px;">
 
-    <h2 class="featurette-heading" style="padding-top: 60px; padding-bottom: 40px;" id="referencias">
+    <h3 class="featurette-heading" style="padding-top: 60px; padding-bottom: 40px;" id="referencias">
         
-        Muito Obrigado. 
-    </h2>
+         Outras iniciativas para se conhecer. 
+    </h3>
         
 
     <p> <a href="http://fi.co" > <b> The Founder Institute: </b></a> </p>
