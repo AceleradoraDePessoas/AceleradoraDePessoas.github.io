@@ -16,7 +16,7 @@
             <img src="/img/slide-02.jpg" alt="">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 style="color:black;">Não Vamos Esperar pelo Governo</h1>
+                    <h1 style="color:black;">N&atilde;o Vamos Esperar pelo Governo</h1>
                     <p class="lead" style="color:black;" >N&atilde;o esperamos que outros responsabilizem-se pelos problemas que vemos e podemos ajudar a resolver.</p>
                     <a class="btn btn-large btn-primary" href="#Contribua">Ajude-nos!</a>
                 </div>

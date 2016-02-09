@@ -7,7 +7,7 @@
 
     </h2>
 
-    <p><h1> Em construção. Ajude-nos  a criar a metodologia. </h1></p><br>
+    <p><h1> Em constru&ccedil;&atilde;o. Ajude-nos  a criar a metodologia. </h1></p><br>
     
     
 
