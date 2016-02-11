@@ -78,7 +78,7 @@
 
         <h2 class="featurette-heading muted" style="padding-bottom: 20px;" >  Cria&ccedil;&atilde;o de Comunidade</h2>
         <img class="featurette-image pull-right" src="/img/time.jpg">
-        <p class="lead" style="padding-top:10px" > Quando nos importamos uns com os outros, criamos la&ccedil;os que se estendem al&eacute;m do simples bussiness. Criamos algo mais, criamos uma comunidade, onde nos sentimos pertecendo a um grupo. Resolver problemas com o apoio de amigos &eacute; sempre mais f&aacute;cil, e queremos ser um bom lugar para se fazer novos amigos. </p>
+        <p class="lead" style="padding-top:10px" > Quando nosimportamos uns com os outros, criamos la&ccedil;os que se estendem al&eacute;m do simples bussiness. Criamos algo mais, criamos uma comunidade, onde nos sentimos pertecendo a um grupo. Resolver problemas com o apoio de amigos &eacute; sempre mais f&aacute;cil, e queremos ser um bom lugar para se fazer novos amigos. </p>
     </div>    
     <hr class="featurette-divider"><div class="featurette" style="padding-top: 10px;"  >
         <img class="featurette-image pull-left" src="/img/povo.jpg">
@@ -103,26 +103,7 @@
         Todas as doa&ccedil;&otilde;es ser&atilde;o registradas de forma p&uacute;blica <a href="transparencia.php">  aqui </a>.
     </p>
 
-<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
-     data-address="37KruuGjANEBJDpxbTo2DohCkjubF13e5s"
-     data-shared="false">
-    <div class="blockchain stage-begin">
-        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-    </div>
-    <div class="blockchain stage-loading" style="text-align:center">
-        <img src="https://blockchain.info/Resources/loading-large.gif"/>
-    </div>
-    <div class="blockchain stage-ready">
-         <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
-         <p align="center" class="qr-code"></p>
-    </div>
-    <div class="blockchain stage-paid">
-         Donation of <b>[[value]] BTC</b> Received. Thank You.
-    </div>
-    <div class="blockchain stage-error">
-        <font color="red">[[error]]</font>
-    </div>
-</div>
+
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
