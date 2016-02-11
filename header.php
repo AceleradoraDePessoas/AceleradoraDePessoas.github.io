@@ -7,6 +7,9 @@
         <meta name="description" content="">
         <meta name="author" content="Guilherme Silva">
 
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://blockchain.info/Resources/wallet/pay-now-button.js"></script>
         <!-- Le styles -->
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/bootstrap-responsive.css" rel="stylesheet">
