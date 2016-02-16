@@ -112,6 +112,10 @@
         <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
     </form>
 
+   
+    <p class="lead" style="padding-top:10px" >
+        Endere&ccedil;o de Bitcoin: <a href="bitcoin:393KkybGNab6eA528CtMMBUpqicT3aZqDw?message=Donation+For+Aceleradora">393KkybGNab6eA528CtMMBUpqicT3aZqDw</a>
+    </p>
 
     <hr class="featurette-divider">
 
