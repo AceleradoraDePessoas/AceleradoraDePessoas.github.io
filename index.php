@@ -122,7 +122,7 @@
     <h2 class="featurette-heading" style="padding-top: 40px; padding-bottom: 40px;" id="envolvase">Envolva-se </span></h2>
 
     <p class="lead" style="padding-top:10px" >
-        Ainda estamos nos estruturando, e por enquanto a melhor forma de envolver-se &eacute; conversar conosco. E a melhor forma &eacute; atrav&eacute;s da lista de discuss&atilde;o do Google, <a href="http://www.aceleradoradepessoas.com.br/grupo.php" > acess&iacute;vel aqui.  </a>
+        Ainda estamos nos estruturando, e por enquanto a melhor forma de envolver-se &eacute; conversar conosco. E a melhor forma &eacute; atrav&eacute;s da lista de discuss&atilde;o do Google, <a href="grupo.php" > acess&iacute;vel aqui.  </a>
     </p>
 
 

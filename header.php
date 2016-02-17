@@ -276,13 +276,13 @@
                         <a class="brand" href="#">Aceleradora de Pessoas</a>
                         <div class="nav-collapse collapse">
                             <ul class="nav">
-                                <li class="active"><a href="http://www.aceleradoradepessoas.com.br/">Início</a></li>
-                                <li><a href="http://www.aceleradoradepessoas.com.br/#sobre">Sobre</a></li>
-                                <li><a href="http://www.aceleradoradepessoas.com.br/comofunciona.php">Como Funciona</a></li>
-                                <li><a href="http://www.aceleradoradepessoas.com.br/#valores">Nossos Valores</a></li> 
-                                <li><a href="http://www.aceleradoradepessoas.com.br/grupo.php">Grupo de Email</a></li> 
-                                <li><a href="http://www.aceleradoradepessoas.com.br/transparencia.php">Transpar&ecirc;ncia</a></li>
-                                <li><a href="http://www.aceleradoradepessoas.com.br/parceiros.php">Parceiros</a></li>
+                                <li class="active"><a href="index.php">Início</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="comofunciona.php">Como Funciona</a></li>
+                                <li><a href="#valores">Nossos Valores</a></li> 
+                                <li><a href="grupo.php">Grupo de Email</a></li> 
+                                <li><a href="transparencia.php">Transpar&ecirc;ncia</a></li>
+                                <li><a href="parceiros.php">Parceiros</a></li>
                                 
                                 <?php
                                 /*
