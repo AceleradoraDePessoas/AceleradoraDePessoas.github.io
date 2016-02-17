@@ -106,6 +106,9 @@
     </p>
 
 
+    <p class="lead" style="padding-top:10px" >
+        <a href="bitcoin:393KkybGNab6eA528CtMMBUpqicT3aZqDw?message=Doacao+Aceleradora"><img src="img/bitcoin_accepted.png"> <small>393KkybGNab6eA528CtMMBUpqicT3aZqDw</small></a>
+    </p>
 
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -115,9 +118,6 @@
     </form>
 
    
-    <p class="lead" style="padding-top:10px" >
-        Endere&ccedil;o de Bitcoin: <a href="bitcoin:393KkybGNab6eA528CtMMBUpqicT3aZqDw?message=Donation+For+Aceleradora">393KkybGNab6eA528CtMMBUpqicT3aZqDw</a>
-    </p>
 
     <hr class="featurette-divider">
 
