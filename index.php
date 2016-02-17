@@ -43,19 +43,19 @@
             <img class="img-circle" data-src="holder.js/140x140">
             <h2>Contribui&ccedil;&otilde;es Financeiras</h2>
             <p>Voc&ecirc; pode contribuir financeiramente com a iniciativa, e se o empreendedor que voc&ecirc; escolheu tiver sucesso comercial, voc&ecirc; pode ganhar tamb&eacute;m.</p>
-            <p><a class="btn" href="#">Entenda melhor &raquo;</a></p>
+            <p><a class="btn" href="#Contribua">Entenda melhor &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
             <img class="img-circle" data-src="holder.js/140x140">
             <h2>Volunt&aacute;rios</h2>
             <p>&Agrave;s vezes, o ativo mais importante que temos &eacute; o nosso tempo e cohecimento. Seja atrav&eacute;s de uma palestra de um assunto que voc&ecirc; domine, seja atrav&eacute;s de mentoring, ou mesmo colaborando com a organiza&ccedil;&atilde;o interna, voc&ecirc; pode fazer a diferen&ccedil;a.</p>
-            <p><a class="btn" href="#">Fale Conosco &raquo;</a></p>
+            <p><a class="btn" href="#envolvase">Fale Conosco &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
             <img class="img-circle" data-src="holder.js/140x140">
             <h2>Rede de Contatos</h2>
             <p>Mesmo uma pessoa sem tempo e sem dinheiro consegue contribuir atrav&eacute;s de sua rede de conhecidos. Espalhe a not&iacute;cia, converse sobre nossa iniciativa e ajude-nos a encontrar pessoas que queiram contribuir.</p>
-            <p><a class="btn" href="#">Fique por Dentro &raquo;</a></p>
+            <p><a class="btn" href="#envolvase">Fique por Dentro &raquo;</a></p>
         </div><!-- /.span4 -->
     </div><!-- /.row -->
 
