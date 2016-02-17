@@ -93,7 +93,9 @@
 
     <h2 class="featurette-heading" style="padding-top: 40px; padding-bottom: 40px;" id="sobre">Quem Somos </span></h2>
 
-    <p class="lead" style="padding-top:10px" > Em constru&ccedil;&atilde;o. Somos poucos, mas seremos muitos.
+    <p class="lead" style="padding-top:10px" > Somos poucos, mas seremos muitos.<br>Fizemos um hangout recentemente explicando nossas ambições e visões, veja o v&iacute;deo para entender melhor nosso caminho:<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t1gJBeKcIII" frameborder="0" allowfullscreen></iframe>
 
     <hr class="featurette-divider">
 
