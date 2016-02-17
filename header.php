@@ -277,9 +277,9 @@
                         <div class="nav-collapse collapse">
                             <ul class="nav">
                                 <li class="active"><a href="index.php">Início</a></li>
-                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="index.php#sobre">Sobre</a></li>
                                 <li><a href="comofunciona.php">Como Funciona</a></li>
-                                <li><a href="#valores">Nossos Valores</a></li> 
+                                <li><a href="index.php#valores">Nossos Valores</a></li> 
                                 <li><a href="grupo.php">Grupo de Email</a></li> 
                                 <li><a href="transparencia.php">Transpar&ecirc;ncia</a></li>
                                 <li><a href="parceiros.php">Parceiros</a></li>
