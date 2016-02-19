@@ -10,6 +10,7 @@
         <!-- Le styles -->
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <style>
 
             /* GLOBAL STYLES
