@@ -59,31 +59,31 @@
         </div><!-- /.span4 -->
     </div><!-- /.row -->
 
-    <h2 class="featurette-heading" style="padding-top: 40px; padding-bottom: 40px;" id="valores">Nossos Valores </span></h2>
+    <h2 style="padding-top: 40px; padding-bottom: 40px;" id="valores">Nossos Valores </span></h2>
 
     <hr class="featurette-divider" style="margin-top: 10px; margin-bottom: 30px;">
     <div class="featurette" style="padding-top: 10px" >
-        <h2 class="featurette-heading muted" style="padding-bottom: 20px;" >  Gera&ccedil;&atilde;o de Valor</h2>
+        <h2 class="blue" style="padding-bottom: 20px;" >  Gera&ccedil;&atilde;o de Valor</h2>
         <img class="featurette-image pull-right" src="/img/planador.JPG">
         <p class="lead" style="padding-top:10px" > N&oacute;s acreditamos que a dignidade material s&oacute; &eacute; conseguida atrav&eacute;s do trabalho, e o trabalho depende da gera&ccedil;&atilde;o de valor. Enquanto a pobreza se perpetua em um ciclo de crian&ccedil;as sem preparo para o mercado tornando-se adultos que n&atilde;o conseguem gerar valor, entendemos que este ciclo pode ser quebrado. As vezes, basta um aux&iacute;lio na decolagem.</p>
     </div>    
     <hr class="featurette-divider"><div class="featurette" style="padding-top: 10px;">
         <img class="featurette-image pull-left" src="/img/crianca.jpg">
 
-        <h2 class="featurette-heading muted" style="padding-bottom: 20px;" >  Acreditamos nas Pessoas</h2>
+        <h2 style="padding-bottom: 20px;" >  Acreditamos nas Pessoas</h2>
         <p class="lead" style="padding-top:10px" >Apostamos na capacidade das pessoas vencerem as mais &aacute;rduas adversidades. Acreditamos que a maioria das pessoas quer fazer o melhor ao pr&oacute;ximo, e muitas vezes n&atilde;o sabe como. Acreditamos que com as ferramentas certas, muito pode ser feito.</p>
 
     </div>
     <hr class="featurette-divider"><div class="featurette" style="padding-top: 10px;"  >
 
-        <h2 class="featurette-heading muted" style="padding-bottom: 20px;" >  Cria&ccedil;&atilde;o de Comunidade</h2>
+        <h2 class="blue" style="padding-bottom: 20px;" >  Cria&ccedil;&atilde;o de Comunidade</h2>
         <img class="featurette-image pull-right" src="/img/time.jpg">
-        <p class="lead" style="padding-top:10px" > Quando nosimportamos uns com os outros, criamos la&ccedil;os que se estendem al&eacute;m do simples bussiness. Criamos algo mais, criamos uma comunidade, onde nos sentimos pertecendo a um grupo. Resolver problemas com o apoio de amigos &eacute; sempre mais f&aacute;cil, e queremos ser um bom lugar para se fazer novos amigos. </p>
+        <p class="lead" style="padding-top:10px" > Quando nos importamos uns com os outros, criamos la&ccedil;os que se estendem al&eacute;m do simples bussiness. Criamos algo mais, criamos uma comunidade, onde nos sentimos pertecendo a um grupo. Resolver problemas com o apoio de amigos &eacute; sempre mais f&aacute;cil, e queremos ser um bom lugar para se fazer novos amigos. </p>
     </div>    
     <hr class="featurette-divider"><div class="featurette" style="padding-top: 10px;"  >
         <img class="featurette-image pull-left" src="/img/povo.jpg">
 
-        <h2 class="featurette-heading muted" style="padding-bottom: 20px" >  Intelig&ecirc;ncia Coletiva</h2>
+        <h2 class="blue" style="padding-bottom: 20px" >  Intelig&ecirc;ncia Coletiva</h2>
         <p class="lead" style="padding-top:10px" > N&oacute;s acreditamos no conceito de que &ldquo;n&oacute;s somos mais inteligentes que eu&rdquo;. N&oacute;s acreditamos que esta intelig&ecirc;ncia coletiva tem valor, e este valor pode ser extra&iacute;do para o bem da pr&oacute;pria coletividade. N&oacute;s acreditamos na intelig&ecirc;ncia de nossa pr&oacute;pria coletividade.</p>
 
     </div>
@@ -95,7 +95,7 @@
 
     <p class="lead" style="padding-top:10px" > Somos poucos, mas seremos muitos.<br>Fizemos um hangout recentemente explicando nossas ambições e visões, veja o v&iacute;deo para entender melhor nosso caminho:<br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t1gJBeKcIII" frameborder="0" allowfullscreen></iframe>
+<iframe width="90%" height="auto" src="https://www.youtube.com/embed/t1gJBeKcIII" frameborder="0" allowfullscreen></iframe>
 
     <hr class="featurette-divider">
 
