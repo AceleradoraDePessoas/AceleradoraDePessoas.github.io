@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^projeto\/([a-z,0-9,A-Z,_-]+)\/?$ projeto.php?Cod=$1
+RewriteRule ^editarprojeto\/([a-z,0-9,A-Z,_-]+)\/?$ projeto.php?Edit=true&Cod=$1
