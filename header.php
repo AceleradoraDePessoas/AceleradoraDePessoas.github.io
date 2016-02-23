@@ -12,6 +12,7 @@
         <link href="/css/main.css" rel="stylesheet" >
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <style>
 
             /* GLOBAL STYLES
@@ -34,7 +35,7 @@
                 top: 0;
                 left: 0;
                 right: 0;
-                z-index: 10;
+                z-index: 20;
                 margin-top: 20px;
                 margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
             }
@@ -169,6 +170,11 @@
                 line-height: 1;
                 letter-spacing: -1px;
             }
+            
+            .featurette-video {
+                width="640"; 
+                height="360";
+            }
 
 
 
@@ -202,7 +208,7 @@
                 .featurette-image.pull-right {
                     display: block;
                     float: none;
-                    max-width: 40%;
+                    max-width: 100%;
                     margin: 0 auto 20px;
                 }
             }
@@ -233,11 +239,12 @@
                     margin-top: 100px;
                 }
                 .carousel-caption h1 {
-                    font-size: 30px;
+                    font-size: 16px;
+                    line-height: 1.1;
                 }
                 .carousel-caption .lead,
                 .carousel-caption .btn {
-                    font-size: 18px;
+                    font-size: 16px;
                 }
 
                 .marketing .span4 + .span4 {
@@ -251,6 +258,11 @@
                     font-size: 18px;
                     line-height: 1.5;
                 }
+                
+                 .featurette-video {
+                width= 100%; 
+                height= auto;
+            }
 
             }
         </style>
