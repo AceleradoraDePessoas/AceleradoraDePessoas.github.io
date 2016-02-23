@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        
         <meta charset="utf-8">
-        <title>Aceleradora de Pessoas - Empreendedorismo como Solução Social</title>
+        <title><?php if(isset($title)) { echo $title; } else { echo "Aceleradora de Pessoas - Empreendedorismo como Solu&ccedil;&atilde;o Social"; } ?> </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
-        <meta name="author" content="Guilherme Silva">
+        <meta name="author" content="Aceleradora de Pessoas">
 
         <!-- Le styles -->
+        <link href="/css/main.css" rel="stylesheet" >
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/bootstrap-responsive.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -33,7 +35,7 @@
                 top: 0;
                 left: 0;
                 right: 0;
-                z-index: 10;
+                z-index: 20;
                 margin-top: 20px;
                 margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
             }
@@ -168,6 +170,11 @@
                 line-height: 1;
                 letter-spacing: -1px;
             }
+            
+            .featurette-video {
+                width= 640px; 
+                height= 360px;
+            }
 
 
 
@@ -201,7 +208,7 @@
                 .featurette-image.pull-right {
                     display: block;
                     float: none;
-                    max-width: 40%;
+                    max-width: 100%;
                     margin: 0 auto 20px;
                 }
             }
@@ -232,11 +239,12 @@
                     margin-top: 100px;
                 }
                 .carousel-caption h1 {
-                    font-size: 30px;
+                    font-size: 16px;
+                    line-height: 1.1;
                 }
                 .carousel-caption .lead,
                 .carousel-caption .btn {
-                    font-size: 18px;
+                    font-size: 16px;
                 }
 
                 .marketing .span4 + .span4 {
@@ -250,6 +258,11 @@
                     font-size: 18px;
                     line-height: 1.5;
                 }
+                
+                 .featurette-video {
+                width= 100%; 
+                height= auto;
+            }
 
             }
         </style>
@@ -259,6 +272,8 @@
           <script src="/js/html5shiv.js"></script>
         <![endif]-->
 
+        
+        <?php echo $header_script; ?>
     </head>
 
     <body>
@@ -274,7 +289,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="brand" href="#"><img src="img/monograma-fundo-escuro-60px.png"></a>
+                        <a class="brand" href="#"><img src="/img/monograma-fundo-escuro-60px.png"></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav">
                                 <li class="active"><a href="index.php">Início</a></li>
