@@ -172,8 +172,8 @@
             }
             
             .featurette-video {
-                width="640"; 
-                height="360";
+                width= 640px; 
+                height= 360px;
             }
 
 
