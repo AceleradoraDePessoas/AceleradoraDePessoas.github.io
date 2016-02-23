@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        
         <meta charset="utf-8">
-        <title>Aceleradora de Pessoas - Empreendedorismo como Solução Social</title>
+        <title><?php if(isset($title)) { echo $title; } else { echo "Aceleradora de Pessoas - Empreendedorismo como Solu&ccedil;&atilde;o Social"; } ?> </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
-        <meta name="author" content="Guilherme Silva">
+        <meta name="author" content="Aceleradora de Pessoas">
 
         <!-- Le styles -->
+        <link href="/css/main.css" rel="stylesheet" >
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/bootstrap-responsive.css" rel="stylesheet">
         <style>
@@ -258,6 +260,8 @@
           <script src="/js/html5shiv.js"></script>
         <![endif]-->
 
+        
+        <?php echo $header_script; ?>
     </head>
 
     <body>
@@ -273,7 +277,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="brand" href="#"><img src="img/monograma-fundo-escuro-60px.png"></a>
+                        <a class="brand" href="#"><img src="/img/monograma-fundo-escuro-60px.png"></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav">
                                 <li class="active"><a href="index.php">Início</a></li>

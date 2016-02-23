@@ -1,0 +1,141 @@
+html {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body_discard {
+    font-family: 'montserrat', 'georgia';
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 900px;
+    margin: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+p{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+h2 {
+    margin-top: 1em;
+    color: #198290;
+    
+}
+#main_wrapper{
+    width: 900px;
+    margin: 0 auto;
+    position: absolute;
+    clear: both;
+}
+
+#imgProj{
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+} 
+
+#sobreProj {
+    float: right;
+    width: 450px;
+    margin: 0 auto;
+}
+
+#kid{
+    width: 400px;
+    height: auto;
+}
+
+#progresso {
+    position: relative;
+    margin: 290px 20px;
+    width: 900px;
+    height: 200px;
+}
+
+#mask {
+    width: 880px;
+    height: auto;
+    z-index: 100;
+    position: absolute;  
+}
+
+#barra{
+    z-index: 50;
+    width: 30%;
+    height: 70px;
+    background-color: #fdc300;
+    position: absolute;
+    margin: 20px 1px;
+}
+
+#fundo{
+    z-index: 0;
+    width: 878px;
+    height: 70px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 20px 1px;
+}
+
+#numProj{
+    margin: 100px 0px;
+    position: absolute;
+}
+
+td{
+    padding: 0px 50px 0px 0px;
+}
+
+#numeros{
+    font-family: font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#relative{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+}
+
+.myButton {
+    width: 140px;
+    float: right;
+    margin: -50px 430px;
+	background-color:#fdc200;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+	padding:12px 38px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#198290;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
