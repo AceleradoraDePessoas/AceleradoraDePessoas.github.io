@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        
+
+
+        <?php
+        if ($_SESSION['user_connected'] == true) {
+
+            if ($_SESSION['provider'] != "facebook") {
+                die("Erro na autenticação. Tentando usar provedor não configurado");
+            }
+
+            $config = dirname(__FILE__) . '/auth/config.php';
+            require_once( "auth/Hybrid/Auth.php" );
+
+            // initialize Hybrid_Auth class with the config file
+            $hybridauth = new Hybrid_Auth($config);
+
+            // try to authenticate with the selected provider
+
+
+            $adapter = $hybridauth->authenticate($_SESSION["provider"]);
+
+            // then grab the user profile
+            $user_profile = $adapter->getUserProfile();
+
+            if (false) {
+
+                print "<pre>";
+                print_r($user_profile);
+                print "</pre>";
+            }
+        }
+        ?>
         <meta charset="utf-8">
-        <title><?php if(isset($title)) { echo $title; } else { echo "Aceleradora de Pessoas - Empreendedorismo como Solu&ccedil;&atilde;o Social"; } ?> </title>
+        <title><?php
+            if (isset($title)) {
+                echo $title;
+            } else {
+                echo "Aceleradora de Pessoas - Empreendedorismo como Solu&ccedil;&atilde;o Social";
+            }
+            ?> </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="Aceleradora de Pessoas">
@@ -170,7 +206,7 @@
                 line-height: 1;
                 letter-spacing: -1px;
             }
-            
+
             .featurette-video {
                 width= 640px; 
                 height= 360px;
@@ -258,7 +294,7 @@
                     font-size: 18px;
                     line-height: 1.5;
                 }
-                
+
                  .featurette-video {
                 width= 100%; 
                 height= auto;
@@ -272,7 +308,7 @@
           <script src="/js/html5shiv.js"></script>
         <![endif]-->
 
-        
+
         <?php echo $header_script; ?>
     </head>
 
@@ -295,31 +331,37 @@
                                 <li class="active"><a href="index.php">Início</a></li>
                                 <li><a href="index.php#sobre">Sobre</a></li>
                                 <li><a href="comofunciona.php">Como Funciona</a></li>
-                                <li><a href="index.php#valores">Nossos Valores</a></li> 
+                                <li><a href="index.php#valores">Nossos Valores</a></li>
                                 <li><a href="grupo.php">Grupo de Email</a></li> 
                                 <li><a href="transparencia.php">Transpar&ecirc;ncia</a></li>
-                                <li><a href="parceiros.php">Parceiros</a></li>
-                                
+
+
+
                                 <?php
-                                /*
-                                  Menu Dropdown ainda não implementado
+                                if ($_SESSION["user_connected"] == true) {
+                                    ?>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $user_profile->firstName; ?><b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="profile.php">Perfil</a></li>
+                                            <li><a href="logout.php">Logout</a></li>
 
-                                  <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                  <ul class="dropdown-menu">
-                                  <li><a href="#">Action</a></li>
-                                  <li><a href="#">Another action</a></li>
-                                  <li><a href="#">Something else here</a></li>
-                                  <li class="divider"></li>
-                                  <li class="nav-header">Nav header</li>
-                                  <li><a href="#">Separated link</a></li>
-                                  <li><a href="#">One more separated link</a></li>
-                                  </ul>
-                                  </li>
+                                        </ul>
+                                    </li>
 
-                                 */
+                                    <?php
+                                } else {
+                                    ?>
+                                    <li><a href="login.php">Login</a></li>
+                                    <?php
+                                }
                                 ?>
                             </ul>
+
+
+                            -->
+
+
                         </div><!--/.nav-collapse -->
                     </div><!-- /.navbar-inner -->
                 </div><!-- /.navbar -->
