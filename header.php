@@ -357,11 +357,6 @@
                                 }
                                 ?>
                             </ul>
-
-
-                            -->
-
-
                         </div><!--/.nav-collapse -->
                     </div><!-- /.navbar-inner -->
                 </div><!-- /.navbar -->
