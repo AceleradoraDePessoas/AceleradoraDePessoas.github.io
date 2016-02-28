@@ -2,14 +2,6 @@
 
 $config = parse_ini_file(str_replace('//', '/', dirname(__FILE__) . '/') . '../config.ini');
 
-if (false) {
-    echo "<pre>";
-    print_r($config);
-    echo '</pre>';
-
-    echo str_replace('//', '/', dirname(__FILE__) . '/') . '../config.ini' . " <br>";
-}
-
 /**
  * HybridAuth
  * http://hybridauth.sourceforge.net | http://github.com/hybridauth/hybridauth
@@ -21,7 +13,7 @@ if (false) {
 
 return
         array(
-            "base_url" => "http://projetosap.aceleradoradepessoas.com.br/auth/",
+            "base_url" => "http://www.aceleradoradepessoas.com.br/auth/",
             "providers" => array(
                 // openid providers
                 "OpenID" => array(
